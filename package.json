@@ -1,0 +1,24 @@
+{
+  "name": "crimereportingsystem-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Regine",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "backend": "^0.0.0",
+    "reacharts": "^0.4.5",
+    "react-icons": "^4.11.0",
+    "recharts": "^2.8.0"
+  }
+}

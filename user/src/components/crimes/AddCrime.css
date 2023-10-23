@@ -1,0 +1,20 @@
+
+.crime-report-button {
+    font-size: 14px; 
+    padding: 10px 20px; 
+    margin: 0 auto; 
+    display: block; 
+    background-color: rgb(95, 16, 168);
+    max-width: 500px;
+    width: 500%;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+ .crime-report-button:hover{
+    background-color: rgb(78, 0, 151);
+ } 
+  
